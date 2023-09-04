@@ -1,0 +1,452 @@
+C:\Users\Isaac\Desktop\School\Fall 2022\CS 455\Project 1>python my-dns-client.py www.cnn.com
+Preparing DNS query...
+DNS query header = abcd01000001000000000000
+DNS query question section = 0377777703636e6e03636f6d0000010001
+Complete DNS query = abcd010000010000000000000377777703636e6e03636f6d0000010001
+
+Contacting DNS server...
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response...
+------------------------------------------------
+header components:
+header.ID = abcd
+header.QR = 1
+header.OPCODE = 0000
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 000
+header.RCODE = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+question components:
+question.QNAME = 0377777703636e6e03636f6d00
+question.QTYPE = 0001
+question.QCLASS = 0001
+
+answer components:
+answer number 1:
+answer.NAME = c00c
+answer.TYPE = 0005
+answer.CLASS = 0001
+answer.TTL = 0109
+answer.RDLENGTH = 0018
+answer.RDATA = 07636e6e2d746c73036d617006666173746c79036e657400
+Resolved IP address: cnn-tls.map.fastly.net.
+
+
+answer number 2:
+answer.NAME = c029
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 0006
+answer.RDLENGTH = 0004
+answer.RDATA = 97650305
+Resolved IP address: 151.101.3.5
+
+
+answer number 3:
+answer.NAME = c029
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 0006
+answer.RDLENGTH = 0004
+answer.RDATA = 97654305
+Resolved IP address: 151.101.67.5
+
+
+answer number 4:
+answer.NAME = c029
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 0006
+answer.RDLENGTH = 0004
+answer.RDATA = 97658305
+Resolved IP address: 151.101.131.5
+
+
+answer number 5:
+answer.NAME = c029
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 0006
+answer.RDLENGTH = 0004
+answer.RDATA = 9765c305
+Resolved IP address: 151.101.195.5
+
+
+
+C:\Users\Isaac\Desktop\School\Fall 2022\CS 455\Project 1>python my-dns-client.py www.gmu.edu
+Preparing DNS query...
+DNS query header = abcd01000001000000000000
+DNS query question section = 0377777703676d75036564750000010001
+Complete DNS query = abcd010000010000000000000377777703676d75036564750000010001
+
+Contacting DNS server...
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response...
+------------------------------------------------
+header components:
+header.ID = abcd
+header.QR = 1
+header.OPCODE = 0000
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 000
+header.RCODE = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+question components:
+question.QNAME = 0377777703676d750365647500
+question.QTYPE = 0001
+question.QCLASS = 0001
+
+answer components:
+answer number 1:
+answer.NAME = c00c
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 0b9f
+answer.RDLENGTH = 0004
+answer.RDATA = c07cf944
+Resolved IP address: 192.124.249.68
+
+
+
+C:\Users\Isaac\Desktop\School\Fall 2022\CS 455\Project 1>python my-dns-client.py www.vt.edu
+Preparing DNS query...
+DNS query header = abcd01000001000000000000
+DNS query question section = 03777777027674036564750000010001
+Complete DNS query = abcd0100000100000000000003777777027674036564750000010001
+
+Contacting DNS server...
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response...
+------------------------------------------------
+header components:
+header.ID = abcd
+header.QR = 1
+header.OPCODE = 0000
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 000
+header.RCODE = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+question components:
+question.QNAME = 037777770276740365647500
+question.QTYPE = 0001
+question.QCLASS = 0001
+
+answer components:
+answer number 1:
+answer.NAME = c00c
+answer.TYPE = 0005
+answer.CLASS = 0001
+answer.TTL = 00f9
+answer.RDLENGTH = 001f
+answer.RDATA = 0e64317871333166627234776f6d750a636c6f756466726f6e74036e657400
+Resolved IP address: d1xq31fbr4womu.cloudfront.net.
+
+
+answer number 2:
+answer.NAME = c028
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 003c
+answer.RDLENGTH = 0004
+answer.RDATA = 6354d02d
+Resolved IP address: 99.84.208.45
+
+
+answer number 3:
+answer.NAME = c028
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 003c
+answer.RDLENGTH = 0004
+answer.RDATA = 6354d07a
+Resolved IP address: 99.84.208.122
+
+
+answer number 4:
+answer.NAME = c028
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 003c
+answer.RDLENGTH = 0004
+answer.RDATA = 6354d00a
+Resolved IP address: 99.84.208.10
+
+
+answer number 5:
+answer.NAME = c028
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 003c
+answer.RDLENGTH = 0004
+answer.RDATA = 6354d011
+Resolved IP address: 99.84.208.17
+
+
+
+C:\Users\Isaac\Desktop\School\Fall 2022\CS 455\Project 1>python my-dns-client.py www.youtube.com
+Preparing DNS query...
+DNS query header = abcd01000001000000000000
+DNS query question section = 0377777707796f757475626503636f6d0000010001
+Complete DNS query = abcd010000010000000000000377777707796f757475626503636f6d0000010001
+
+Contacting DNS server...
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response...
+------------------------------------------------
+header components:
+header.ID = abcd
+header.QR = 1
+header.OPCODE = 0000
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 000
+header.RCODE = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0011
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+question components:
+question.QNAME = 0377777707796f757475626503636f6d00
+question.QTYPE = 0001
+question.QCLASS = 0001
+
+answer components:
+answer number 1:
+answer.NAME = c00c
+answer.TYPE = 0005
+answer.CLASS = 0001
+answer.TTL = 4e9a
+answer.RDLENGTH = 0016
+answer.RDATA = 0a796f75747562652d7569016c06676f6f676c65c018
+Resolved IP address: youtube-ui.l.google..
+
+
+answer number 2:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = acfd7a88
+Resolved IP address: 172.253.122.136
+
+
+answer number 3:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = acfd7a5d
+Resolved IP address: 172.253.122.93
+
+
+answer number 4:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = acfd7a5b
+Resolved IP address: 172.253.122.91
+
+
+answer number 5:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = acfd3f5d
+Resolved IP address: 172.253.63.93
+
+
+answer number 6:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = acfd3f88
+Resolved IP address: 172.253.63.136
+
+
+answer number 7:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb6f5b
+Resolved IP address: 142.251.111.91
+
+
+answer number 8:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb6f88
+Resolved IP address: 142.251.111.136
+
+
+answer number 9:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb6f5d
+Resolved IP address: 142.251.111.93
+
+
+answer number 10:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efa414e
+Resolved IP address: 142.250.65.78
+
+
+answer number 11:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb10be
+Resolved IP address: 142.251.16.190
+
+
+answer number 12:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb1088
+Resolved IP address: 142.251.16.136
+
+
+answer number 13:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efb105b
+Resolved IP address: 142.251.16.91
+
+
+answer number 14:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efba388
+Resolved IP address: 142.251.163.136
+
+
+answer number 15:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efba35d
+Resolved IP address: 142.251.163.93
+
+
+answer number 16:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efba35b
+Resolved IP address: 142.251.163.91
+
+
+answer number 17:
+answer.NAME = c02d
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 00b2
+answer.RDLENGTH = 0004
+answer.RDATA = 8efba3be
+Resolved IP address: 142.251.163.190
+
+
+
+C:\Users\Isaac\Desktop\School\Fall 2022\CS 455\Project 1>python my-dns-client.py www.example.com
+Preparing DNS query...
+DNS query header = abcd01000001000000000000
+DNS query question section = 03777777076578616d706c6503636f6d0000010001
+Complete DNS query = abcd0100000100000000000003777777076578616d706c6503636f6d0000010001
+
+Contacting DNS server...
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response...
+------------------------------------------------
+header components:
+header.ID = abcd
+header.QR = 1
+header.OPCODE = 0000
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 000
+header.RCODE = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+question components:
+question.QNAME = 03777777076578616d706c6503636f6d00
+question.QTYPE = 0001
+question.QCLASS = 0001
+
+answer components:
+answer number 1:
+answer.NAME = c00c
+answer.TYPE = 0001
+answer.CLASS = 0001
+answer.TTL = 50c4
+answer.RDLENGTH = 0004
+answer.RDATA = 5db8d822
+Resolved IP address: 93.184.216.34
